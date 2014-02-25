@@ -10,6 +10,9 @@ package javaapplication1;
  *
  * @author T107
  */
-public class EdadNegativaException {
+public class EdadNegativaException extends Exception{
     
+    public EdadNegativaException(){
+        super("Lo siento pero estas morro");
+    }
 }
