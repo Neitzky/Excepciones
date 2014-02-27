@@ -28,8 +28,8 @@ public class Usuario {
         return edad;
     }
 
-    public void setEdad(int edad) {
-        if(edad<18)edad=18;
+    public void setEdad(int edad)throws EdadNoNegativaException {
+        Validacion.validarEdad(edad);
         this.edad = edad;
     }
     
