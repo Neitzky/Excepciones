@@ -20,9 +20,11 @@ public class CreacionUsuario {
         
         Usuario c=new Usuario();
         
-        c.setNombre("Omar");
+        c.setNombre("Dinky");
         c.setEdad(14);
-        System.out.println(c.getEdad());
+        c.getNombre();
+        c.getEdad();
+        
 
         
     }
