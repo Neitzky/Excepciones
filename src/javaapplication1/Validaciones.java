@@ -11,5 +11,7 @@ package javaapplication1;
  * @author T107
  */
 public class Validaciones {
-    
+     public static void validarEdad(int edad) throws EdadNoNegativaException {
+     if (edad < 18 )throw new EdadNoNegativaException();
+    }
 }
